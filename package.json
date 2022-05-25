@@ -1,0 +1,26 @@
+{
+  "name": "web-starter",
+  "version": "1.0.0",
+  "description": "Starting folder for the creation of a website for young developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/sass:public/css --style compressed && echo \u001b[32m Files SASS compiled \u001b[0m",
+    "js": " browserify --watch src/js/app.js -o public/js/index.js && echo \u001b[32m Files JS compiled \u001b[0m",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Olivieroy: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@github.com/Olivieroy/web-starter.git"
+  },
+  "author": "Olivier Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olivieroy/web-starter/issues"
+  },
+  "homepage": "https://github.com/Olivieroy/web-starter#readme",
+  "keywords": [],
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "sass": "^1.52.1"
+  }
+}

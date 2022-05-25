@@ -1,0 +1,78 @@
+@keyframes openTop{
+    0%{
+        transform: translateY(-6px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(90deg);
+    }
+}
+@keyframes closedTop{
+    0%{
+        transform: translateY(-6px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(90deg);
+    }
+}
+@keyframes openMid{
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes closedMid{
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes openBtm{
+    0%{
+        transform: translateY(6px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(90deg);
+    }
+}
+@keyframes closedBtm{
+    0%{
+        transform: translateY(6px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(90deg);
+    }
+}
+
+// rotate menu
+@keyframes rotateMenu {
+
+    0% {
+        transform: rotateX(-90deg)
+
+    }
+
+    70% {
+        transform: rotateX(20deg)
+    }
+
+    100% {
+        transform: rotateX(0deg)
+    }
+
+}
