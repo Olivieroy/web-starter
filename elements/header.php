@@ -17,7 +17,9 @@
     <!-- End link Font et Material Icons -->
 
     <!-- Link Javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script> -->
+        <!-- Active JQuery ⬆️  -->
+
                 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" defer></script> -->
                 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" defer></script> -->
         <!-- Link or change CDN  Framework CSS  ⬆️ -->
