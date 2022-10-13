@@ -1,0 +1,1 @@
+alert("Thank you for downloading Web-starter ! \nGood luck and good development on your web project. 😃 \nDon't forget to clear the index.js file from the source/js folder !" );

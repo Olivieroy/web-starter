@@ -1,0 +1,34 @@
+@use 'functions' as *;
+
+
+$fonts: (
+    // desktop
+    title: (
+        d-h1xl: rem(50),
+        d-h1: rem(35),
+        d-h2: rem(28),
+        d-h3: rem(20),
+        d-h4: rem(18),
+        d-h5: rem(18),
+
+        m-h1xl: rem(32),
+        m-h1: rem(28),
+        m-h2: rem(24),
+        m-h3: rem(20),
+    ),
+    text:(
+        normal: rem(16),
+        small:rem(14),
+        d-nav:rem(16),
+        m-nav:rem(20),
+        d-question-faq: rem(18)/rem(32),
+        m-question-faq: rem(16),
+        label:rem(16),
+        input:rem(16),
+        msg-input:rem(14),
+        date:rem(12),
+    )
+);
+@function fontsize($font, $value: 0) {
+    @return map-get(map-get($fonts, $font), $value);
+}

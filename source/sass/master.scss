@@ -1,0 +1,14 @@
+// ---------------------------------------------------------
+// Main
+// ---------------------------------------------------------
+
+@use 'libs';
+@use 'layouts';
+@use 'components' as c;
+@use 'global' as *;
+@use 'pages';
+
+
+p{
+    font-size: fontsize(title, d-h1);
+}
