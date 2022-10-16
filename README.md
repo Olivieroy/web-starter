@@ -11,8 +11,8 @@
 3. [Installation](#installation-📦)
 4. [Usage](#usage)
 5. [Structure](#structure-🔨)
-5. [License](#license-📜)
-5. [License](#license)
+6. [License](#license-📜)
+7. [Autor](#autor)
 
 
 ## Browser Support 🌐
