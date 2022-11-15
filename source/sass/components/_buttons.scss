@@ -5,73 +5,30 @@
 @use '../global' as *;
 
 .btn{
-    padding:  rem(24) rem(48);
+    padding:  rem(16) rem(20);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: rem(8);
-    border-radius: rem(4);
     width: fit-content;
     transition: all .2s ease-in-out;
-
-    &.filled{
-
-        &-primary{
-            background: color(primary, 500);
-            color: color(btow, 1000);
+    cursor: pointer;
     
-            &:hover{
-                background: color(primary, 700);
-            }
-        }
-
-        &-secondary{
-            background: color(secondary, 500);
-            color: color(btow, 1000);
-    
-            &:hover{
-                background: color(secondary, 700);
-            }
-        }
-
-        &-accent{
-            background: color(accent, 500);
-            color: color(btow, 1000);
-    
-            &:hover{
-                background: color(accent, 700);
-            }
-        }
-
-    }
-
     &.outlined{
 
-        &-primary{
-            border: rem(3) solid color(primary, 500);
-            color: color(btow, 1000);
-
-            &:hover{
-                background: color(primary, 500);
-            }
-        }
 
         &-secondary{
-            border: rem(3) solid color(secondary, 500);
-            color: color(btow, 1000);
+            border: rem(3) solid color(secondary, base);
+            background: none;
+            color: color(secondary, base);
+            margin: auto;
+            font-size: rem(20);
+            font-weight: 700;
 
             &:hover{
                 background: color(secondary, 500);
             }
         }
 
-        &-accent{
-            border: rem(3) solid color(accent, 500);
-            color: color(btow, 1000);
-
-            &:hover{
-                background: color(accent, 500);
-            }
-        }
     }
 }
