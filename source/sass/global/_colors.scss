@@ -37,4 +37,3 @@ $colors: (
 @function color($color, $value: 0) {
     @return map-get(map-get($colors, $color), $value);
 }
-

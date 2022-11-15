@@ -26,7 +26,7 @@
     <script src="source/js/index.js" defer></script>
         <!-- If you want you can add other scripts -->
     <!-- End link Javascript -->
-    <title>Web-starter by Olivieroy</title>
+    <title></title>
 </head>
 <body>
     <header>
