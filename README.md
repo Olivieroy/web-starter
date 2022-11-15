@@ -103,4 +103,4 @@ Good Luck ! 🍀
 [MIT](https://github.com/Olivieroy/web-starter/LICENSE.) 
 
 ## Author
-[Olivieroy](https://olivieroy.fr) 🧢a
+[Olivieroy](https://olivieroy.fr) 🧢
