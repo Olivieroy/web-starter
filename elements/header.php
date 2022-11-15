@@ -12,7 +12,7 @@
 
     <!-- Link Font et Material Icons -->
     <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,regular,700" rel="stylesheet" />
         <!-- Change this font ⬆️  -->
     <!-- End link Font et Material Icons -->
 
@@ -26,7 +26,7 @@
     <script src="source/js/index.js" defer></script>
         <!-- If you want you can add other scripts -->
     <!-- End link Javascript -->
-    <title>Web-starter by Olivieroy</title>
+    <title></title>
 </head>
 <body>
     <header>

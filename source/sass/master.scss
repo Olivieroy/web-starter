@@ -8,4 +8,8 @@
 @use 'global' as *;
 @use 'pages';
 
-
+body{
+    background: linear-gradient(125deg, color(primary, dark) 0%, color(primary, light) 100%);
+    color: color(btow, 100);
+    font-family: 'Oxygen', sans-serif;
+}
