@@ -83,5 +83,11 @@ web-starter/
 1. Clonez ce dépôt sur votre machine locale.
 2. Exécutez `npm install` pour installer toutes les dépendances du projet.
 3. Utilisez la commande `npm run gulp` pour exécuter les tâches Gulp (compilation, minification, etc.).
-4. Utilisez la commande `npm run watch` pour surveiller les modifications des fichiers SCSS et les compiler automatiquement en CSS.
-5. Modifiez les fichiers SCSS, JS, et PHP selon
+4. Modifiez les fichiers SCSS, JS, et PHP selon les besoins de votre projet.
+6. Lorsque vous avez terminé, les fichiers compilés et minifiés seront disponibles dans le dossier "dist".
+
+## :sparkles: Fonctionnalités supplémentaires
+
+- [ ] Ajouter des fonctionnalités supplémentaires selon les besoins de votre projet.
+- [ ] Améliorer l'accessibilité et la compatibilité avec les navigateurs.
+- [ ] Optimiser les performances et la vitesse de chargement du site.
