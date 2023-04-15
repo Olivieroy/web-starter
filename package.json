@@ -1,42 +1,36 @@
 {
   "name": "web-starter",
-  "version": "1.0.0",
-  "description": "Starting folder for the creation of a website for young developer.",
+  "version": "2.0.0",
+  "description": "<div align=\"center\">     <h1> Web-starter </h1>     <p> A starter template for web development </p>     <img src=\"https://cdn.discordapp.com/attachments/954117377593868331/1029864040882786324/iMac_-_1.png\"> </div>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch source/sass:source/css --style compressed --no-source-map && echo \u001b[32m Files SASS compiled \u001b[0m"
+    "gulp": "gulp --gulpfile gulpfile.mjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Olivieroy/web-starter.git"
   },
-  "author": "Olivier Roy",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Olivieroy/web-starter/issues"
   },
   "homepage": "https://github.com/Olivieroy/web-starter#readme",
   "devDependencies": {
-    "sass": "^1.56.1"
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1"
   },
   "dependencies": {
-    "anymatch": "^3.1.2",
-    "binary-extensions": "^2.2.0",
-    "braces": "^3.0.2",
-    "chokidar": "^3.5.3",
-    "fill-range": "^7.0.1",
-    "fsevents": "^2.3.2",
-    "glob-parent": "^5.1.2",
-    "immutable": "^4.1.0",
-    "is-binary-path": "^2.1.0",
-    "is-extglob": "^2.1.1",
-    "is-glob": "^4.0.3",
-    "is-number": "^7.0.0",
-    "normalize-path": "^3.0.0",
-    "picomatch": "^2.3.1",
-    "readdirp": "^3.6.0",
-    "source-map-js": "^1.0.2",
-    "to-regex-range": "^5.0.1"
-  }
+    "gulp-cli": "^2.3.0"
+  },
+  "type": "module"
 }
