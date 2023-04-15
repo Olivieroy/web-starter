@@ -1,0 +1,88 @@
+@use "../global" as *;
+
+.contain-grid{
+    padding: 0 rem(16);
+    height: 100vh;
+      position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    pointer-events: none;
+
+  @include breakpoint("md") {
+    padding: 0 rem(24);
+  }
+}
+
+.grid{
+    height: 100vh;
+    width: 100%;
+    max-width: rem(1200);
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 1fr;
+    grid-column-gap: rem(24);
+  
+    // padding: 0 rem(20) ;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+    &.active{
+        // display: grid;
+        opacity: 1;
+
+    }
+    
+
+    .grid-element{
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(224, 0, 0, 0.121);
+    }
+
+    @include breakpoint (sm) {
+        grid-template-columns: repeat(5, auto);
+        grid-column-gap: 24px;
+        // padding: 0 rem(32) ;
+    }
+
+    @include breakpoint (md) {
+        grid-template-columns: repeat(9, auto);
+        grid-column-gap: rem(24);
+        padding: 0  ;
+    }
+}
+
+.grid-btn{
+    position: fixed;
+    bottom: rem(16);
+    right: rem(24);
+    z-index: 9999;
+    border-radius: rem(50);
+    padding: rem(16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: rem(8);
+    border: 1px solid color(btow, 800);
+    background-color: color(btow, 100);
+    color: color(btow, 800);
+    font-size: fontproperty(title, d-h1Bold, size);
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        background-color: color(btow, 800);
+        color: color(btow, 100);
+    }
+
+}
