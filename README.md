@@ -8,6 +8,7 @@
 
 ## :file_folder: Structure du projet
 
+```
 web-starter/
 │
 ├─ .github/
@@ -74,6 +75,7 @@ web-starter/
 ├── package.json
 ├── README.md
 └── SECURITY.md
+```
 
 
 ## :rocket: Utilisation
