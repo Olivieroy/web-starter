@@ -5,6 +5,7 @@
 - [Structure du projet](#structure-du-projet)
 - [Utilisation](#utilisation)
 - [Fonctionnalités supplémentaires](#fonctionnalités-supplémentaires)
+- [Contact](#contact)
 
 ## :file_folder: Structure du projet
 
@@ -39,7 +40,7 @@ web-starter/
 │       │   ├── _button.scss
 │       │   ├── _cards.scss
 │       │   ├── _cta.scss
-│       │   ├── _grid.scss
+│       │   ├── _grid.scss ⬅️ Vous pouvez changer l'affichage de la grid présente dans le fichier grid.php
 │       │   ├── _index.scss
 │       │   ├── _input.scss
 │       │   └── _labels.scss
@@ -81,13 +82,14 @@ web-starter/
 ## :rocket: Utilisation
 
 1. Clonez ce dépôt sur votre machine locale.
-2. Exécutez `npm install` pour installer toutes les dépendances du projet.
-3. Utilisez la commande `npm run gulp` pour exécuter les tâches Gulp (compilation, minification, etc.).
-4. Modifiez les fichiers SCSS, JS, et PHP selon les besoins de votre projet.
-6. Lorsque vous avez terminé, les fichiers compilés et minifiés seront disponibles dans le dossier "dist".
+2. Installez [Node.js](https://nodejs.org/en/) sur votre machine avec la commande suivante dans votre terminal `npm init`.
+3. Exécutez `npm install` pour installer toutes les dépendances du projet.
+4. Aller dans le fichier package.json et modifier le nom du projet, la description, l'auteur, la licence, les mots-clés, etc.
+5. Ajouter également dans le fichier package.json dans la partie scripts ` "test": "echo \"Error: no test specified\" && exit 1", "gulp": "gulp --gulpfile gulpfile.mjs"`.
+6. Utilisez la commande `npm run gulp` pour exécuter les tâches Gulp (compilation, minification, etc.).
+7. Modifiez les fichiers SCSS, JS, et PHP selon les besoins de votre projet.
+8. Lorsque vous avez terminé, les fichiers compilés et minifiés seront disponibles dans le dossier "dist".
 
-## :sparkles: Fonctionnalités supplémentaires
+## Contact
 
-- [ ] Ajouter des fonctionnalités supplémentaires selon les besoins de votre projet.
-- [ ] Améliorer l'accessibilité et la compatibilité avec les navigateurs.
-- [ ] Optimiser les performances et la vitesse de chargement du site.
+Si vous rencontrez le moindre problème vous pouvez me contactez ici : [contact@olivieroy.fr](mailto:contact@olivieroy.fr) ✉️

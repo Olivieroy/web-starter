@@ -1,6 +1,8 @@
 /node_modules
 .DS_Store
 npm-debug.log
+package-lock.json
+package.json
 # ne plus prendre en compte les fichiers de configuration de l'IDE
 .idea
 .vscode
